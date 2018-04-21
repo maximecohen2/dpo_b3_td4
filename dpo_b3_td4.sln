@@ -6,5 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "expression_mathematique", "
 EndProject
 Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{532D6E1E-3353-4959-9E6F-D0000C8B40EC}.Default|Any CPU.ActiveCfg = Default|Any CPU
+		{532D6E1E-3353-4959-9E6F-D0000C8B40EC}.Default|Any CPU.Build.0 = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Any CPU = Default|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -2,11 +2,19 @@
 
 namespace expression_mathematique
 {
-    class Program
+    internal static class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // f(x) = (2 - x) * (x + 2)
+            Node node =
+                new OperatorMult(
+                    new OperatorSub(
+                        new OperandConstant(2), new OperandX()),
+                    new OperatorAdd(
+                        new OperandX(), new OperandConstant(2)));
+            
+            node.display();
         }
     }
 }
